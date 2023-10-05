@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    text-align: center;
+    background-image: url("download.jpg"),
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size:cover;
+    background-attachment: fixed;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+header{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+header h1{
+    color:rgb(15, 16, 15);
+}
+
+header p{
+    color:rgb(9, 9, 9);
+    font-size: larger;
+}
+
+
+.container{
+    display: inline-block;
+    width: 600px;
+    min-width: 200px;
+    background-color:rgb(41, 36, 36);
+    margin: 20px 50px;
+    padding: 20px;
+    border-radius: none; 
+    border: 3px solid #dcb759;
+    
+}
+
+label{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: sans-serif;
+
+}
+
+input{
+    padding: 3px 3px;
+    margin: 10px;
+    border-radius: 2px;
+    border-color: whitesmoke;
+    transition: .3s border-color;
+}
+
+input:hover{
+    border-color: rgb(61, 16, 224);
+}
+
+#temp{
+    height: 25px;
+    width: 60px;
+}
+
+select:hover{
+    height: 25px;
+    width: fit-content;
+    margin: 10px;
+    border-radius: none;
+    border-color: rgb(61, 16, 224);
+}
+
+#submitbtn:hover{
+    height: 2.5rem;
+    width: 5rem;
+    color: whitesmoke;
+    background-color: rgb(238, 201, 108);
+    border-radius: 3px;
+    border-color: whitesmoke;
+    font-size: 20px;  
+}
+
+#resultContainer{
+    margin: 15px 15px;
+    padding: 15px;
+    background-color: whitesmoke;
+    font-size: 30px;
+    border-radius: none;
+    border-color:whitesmoke;
+    border: 3px solid black; 
+}
+#resultContainer:hover{
+    border-color: rgb(61, 16, 224);
+}
+
+#footer {
+    position: fixed;
+    color: goldenrod;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
